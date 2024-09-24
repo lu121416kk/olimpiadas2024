@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #d6c278;
+    opacity: 0.7;
+    text-decoration: none
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: -1%;
+    margin-right: 5%;
+    margin-top: -2%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+    margin-right: 10%;
+    margin-top: -0.5%;
+}
+
+.navmenu{
+    list-style: none;
+    display: flex;
+}
+
+.navmenu li{
+    letter-spacing: 3px;
+    margin-left: 10%;
+    font-weight: 700;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+header.rolagem{
+    background-color: #000 ;
+    padding-bottom: 0.1%;
+    z-index: 1;
+}
+
+header.rolagem a{
+    color: #fff;
+}
+
+.banner{
+    background-image: url('img/fundo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+.banner h1{
+    color: #fff;
+    font-size: 4em;
+    margin-top: 2%;
+}
+
+.banner h1 span{
+    color: #d6c278;
+}
+
+.title{
+    font-family: "Manrope", sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 2%;
+    z-index: 1;
+}
+
+.title span{
+    color: #d6c278;
+}
+
+.corpo{
+    font-size: 150%;
+    font-weight: 300;
+    margin-left: 5%;
+}
+
+.sports-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+    z-index: 0;
+
+}
+
+.sports-list li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    font-size: 150%;
+    font-weight: 500;
+    margin-left: 3%;
+    width: 25%;
+}
+
+.sports-list li:hover{
+    color: #d6c278;
+    transition: 0.7s;
+    font-size: 250%;
+    font-weight: 600;
+    transform: scale(2);
+    z-index: 0;
+}
+
+.hover-info {
+    display: none;
+    position: absolute;
+    left: 50%; /* Coloca o elemento ao lado direito do item da lista */
+    top: 0;
+    margin-left: 40%;
+    margin-top: -8%;
+}
+
+.sports-list li:hover .hover-info {
+    display: inline-block;
+}
+
+.ajuste{
+    display: none;
+    position: absolute;
+    left: 50%; /* Coloca o elemento ao lado direito do item da lista */
+    top: 0;
+    margin-left: 40%;
+    margin-top: -80%;
+}
+
+.sports-list li:hover .ajuste {
+    display: inline-block;
+}
+
+.modalidades{
+    width: 2000%;
+    margin-left: 2%;
+}
+
+
+
+/*Fim das Modalidades*/
+
+
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 80vw;
+    background-color: white;
+    color: #000;
+    flex-wrap: wrap;
+    padding: 2px 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 2px 2px #1c1c11;
+    -moz-box-shadow: 2px 2px 2px 2px #3c3c3c;
+    box-shadow: 2px 2px 2px 2px #4c4c4c;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+.tabela table{
+    width: 100%;
+    max-width: 10000px;
+    border-collapse: collapse;
+}
+
+.tabela table tr th{
+    height: 56px;
+    font-size: 150%;
+}
+
+.tabela table tr.item td{
+    border-bottom: 1px solid #1c1c1c;
+}
+
+.tabela table tr.item{
+    height: 60px;
+}
+
+.tabela table tr.brasil{
+    background-color: #e0e0e0;
+}
+
+.tabela table tr.item:hover{
+    background-color: #e0e0e0;
+    transition: 1s;
+}
+
+#medalhas{
+    margin-top: 8%;
+}
+
+#medalhas .title{
+    margin-left: 27%;
+}
+
+.bandeiras{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.image {
+    float: left;
+    margin-right: 2%;
+    width: 50%;
+}
+
+.imageright{
+    float: right;
+    margin-left: 2%;
+    width: 50%;
+}
+
+.subtitle{
+    font-size: 250%;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-family: "Manrope", sans-serif;
+}
+
+#sobre p{
+    font-size: 150%;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#modalidades .title{
+    margin-top: 10%;
+}
+
+/*As vezes eu mesmo me perco no meu próprio css*/
+
+.banner2{
+    background-image: url('img/paralimpiadas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+}
+
+.banner2 h1{
+    color: #fff;
+    font-size: 4em;
+    margin-top: 2%;
+}
+
+.banner2 h1 span{
+    color: #d6c278;
+}
+
+#paralimpiadas p{
+    font-size: 150%;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#paralimpiadas p.title{
+    font-size: 400%;
+}
+
+
+
+footer{
+    background-color: #000;
+    color: #fff;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 110%;
+    line-height: 160%;
+}
+
+.row{
+    margin-left: 10%;
+}
+
+.col-md-5{
+    margin-top: 10%;
+}
+
+footer span{
+    color: #d6c278;
+}
+
+footer .btn{
+    background-color: #d6c278;
+    border-color: #d6c278;
+    margin-top: 10%;
+}
+
+footer .btn:hover{
+    background-color: #d6c278;
+    border-color: #d6c278;
+}
+
+.copyright{
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1600px) {
+    .logo{
+        margin-right: 25%;
+        margin-top: -2% !important;
+        width: 50%;
+    }
+
+    nav{
+        margin-top: -1.5%;
+    }
+
+    .sports-list li:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo img{
+        width: 25% !important;
+    }
+
+    .navmenu{
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+
+    .sports-list li:hover{
+        transform: scale(1.1);
+    }
+
+    .menu-toggle{
+        visibility: hidden;
+    }
+
+    input{
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-width: 1600px){
+    .logo img{
+        width: 50% !important;
+    }
+
+    .sports-list li:hover{
+        font-size: 150%;
+        transform: scale(1.5);
+        margin-left: 10%;
+    }
+
+    .hover-info{
+        margin-top: -3%;
+    }
+
+    .menu-toggle{
+        visibility: hidden;
+    }
+
+    input{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    header.rolagem{
+        background-color: #d6c278 ;
+        padding-bottom: 16%;
+    }
+    
+    header.rolagem a{
+        color: #fff;
+    }
+
+    .navmenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: -204.8%;
+        background-color: #d6c278;
+        padding-top: 20%;
+        margin-top: -10%;
+    }
+
+    .navmenu li{
+        margin-top: 13%;
+    }
+
+    .navmenu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-right: -40%;
+    }
+
+    /* Exibir a lista quando o checkbox está marcado */
+    .menu-toggle-checkbox:checked ~ .navmenu {
+        display: flex;
+    }
+
+    input{
+        opacity: 0;
+    }
+
+    img .dentro-menu{
+        margin-left: 10%;
+    }
+
+    .banner h1{
+        margin-left: 15%;
+        font-size: 300%;
+    }
+
+    .logo img{
+        width: 40% !important;
+        margin-left: 1%;
+    }
+
+    .menu-icon{
+        margin-left: 10%;
+    }
+
+
+    .title{
+        font-size: 250%;
+    }
+
+    .sports-list li:hover{
+        transform: scale(0.8);
+    }
+    
+    .modalidades{
+        margin-left: 1400%
+    }
