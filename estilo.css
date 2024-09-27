@@ -436,7 +436,7 @@ footer .btn:hover {
         width: 100%;
         position: absolute;
         top: 0;
-        bottom: -204.8%;
+        bottom: -310.8%;
         background-color: #d6c278;
         padding-top: 20%;
         margin-top: -10%;
@@ -572,5 +572,9 @@ footer .btn:hover {
         font-weight: 800;
         text-align: left;
         margin-top: -6%;
+    }
+
+    footer span{
+        margin-top: 15%;
     }
 }
