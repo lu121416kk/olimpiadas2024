@@ -419,7 +419,11 @@ footer .btn:hover {
 @media (max-width: 768px) {
     header.rolagem {
         background-color: #d6c278;
-        padding-bottom: 16%;
+        padding-bottom: 1%;
+    }
+
+    .logo img{
+        margin-top: -10%;
     }
 
     header.rolagem a {
@@ -460,7 +464,7 @@ footer .btn:hover {
         opacity: 0;
     }
 
-    img .dentro-menu {
+    img #dentro-menu {
         margin-left: 10%;
     }
 
@@ -491,8 +495,9 @@ footer .btn:hover {
         margin-left: 1400%
     }
 
-    .dentro-menu {
-        margin-left: -20%;
+    #dentro-menu {
+        margin-left: -5%;
+        margin-top: -20%;
     }
 
     .image {
