@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
-a:hover{
+a:hover {
     color: #d6c278;
     opacity: 0.7;
     text-decoration: none
 }
 
-.logo{
+.logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -28,7 +28,7 @@ a:hover{
     margin-top: -2%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,12 +37,12 @@ nav{
     margin-top: -0.5%;
 }
 
-.navmenu{
+.navmenu {
     list-style: none;
     display: flex;
 }
 
-.navmenu li{
+.navmenu li {
     letter-spacing: 3px;
     margin-left: 10%;
     font-weight: 700;
@@ -51,7 +51,7 @@ nav{
     justify-content: left;
 }
 
-header{
+header {
     width: 100%;
     padding: 60px 4%;
     position: fixed;
@@ -60,17 +60,17 @@ header{
     transition: 1s;
 }
 
-header.rolagem{
-    background-color: #000 ;
+header.rolagem {
+    background-color: #000;
     padding-bottom: 0.1%;
     z-index: 1;
 }
 
-header.rolagem a{
+header.rolagem a {
     color: #fff;
 }
 
-.banner{
+.banner {
     background-image: url('img/fundo.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -83,17 +83,17 @@ header.rolagem a{
     font-weight: 800;
 }
 
-.banner h1{
+.banner h1 {
     color: #fff;
     font-size: 4em;
     margin-top: 2%;
 }
 
-.banner h1 span{
+.banner h1 span {
     color: #d6c278;
 }
 
-.title{
+.title {
     font-family: "Manrope", sans-serif;
     font-size: 300%;
     font-weight: 600;
@@ -102,11 +102,11 @@ header.rolagem a{
     z-index: 1;
 }
 
-.title span{
+.title span {
     color: #d6c278;
 }
 
-.corpo{
+.corpo {
     font-size: 150%;
     font-weight: 300;
     margin-left: 5%;
@@ -126,15 +126,15 @@ header.rolagem a{
     padding: 10px;
     cursor: pointer;
     font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-weight: 300;
+    font-style: normal;
     font-size: 150%;
     font-weight: 500;
     margin-left: 3%;
     width: 25%;
 }
 
-.sports-list li:hover{
+.sports-list li:hover {
     color: #d6c278;
     transition: 0.7s;
     font-size: 250%;
@@ -146,7 +146,8 @@ header.rolagem a{
 .hover-info {
     display: none;
     position: absolute;
-    left: 50%; /* Coloca o elemento ao lado direito do item da lista */
+    left: 50%;
+    /* Coloca o elemento ao lado direito do item da lista */
     top: 0;
     margin-left: 40%;
     margin-top: -8%;
@@ -156,10 +157,11 @@ header.rolagem a{
     display: inline-block;
 }
 
-.ajuste{
+.ajuste {
     display: none;
     position: absolute;
-    left: 50%; /* Coloca o elemento ao lado direito do item da lista */
+    left: 50%;
+    /* Coloca o elemento ao lado direito do item da lista */
     top: 0;
     margin-left: 40%;
     margin-top: -80%;
@@ -169,7 +171,7 @@ header.rolagem a{
     display: inline-block;
 }
 
-.modalidades{
+.modalidades {
     width: 2000%;
     margin-left: 2%;
 }
@@ -180,7 +182,7 @@ header.rolagem a{
 
 
 
-.tabela{
+.tabela {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,43 +200,43 @@ header.rolagem a{
     margin-top: 5%;
 }
 
-.tabela table{
+.tabela table {
     width: 100%;
     max-width: 10000px;
     border-collapse: collapse;
 }
 
-.tabela table tr th{
+.tabela table tr th {
     height: 56px;
     font-size: 150%;
 }
 
-.tabela table tr.item td{
+.tabela table tr.item td {
     border-bottom: 1px solid #1c1c1c;
 }
 
-.tabela table tr.item{
+.tabela table tr.item {
     height: 60px;
 }
 
-.tabela table tr.brasil{
+.tabela table tr.brasil {
     background-color: #e0e0e0;
 }
 
-.tabela table tr.item:hover{
+.tabela table tr.item:hover {
     background-color: #e0e0e0;
     transition: 1s;
 }
 
-#medalhas{
+#medalhas {
     margin-top: 8%;
 }
 
-#medalhas .title{
+#medalhas .title {
     margin-left: 27%;
 }
 
-.bandeiras{
+.bandeiras {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -247,35 +249,35 @@ header.rolagem a{
     width: 50%;
 }
 
-.imageright{
+.imageright {
     float: right;
     margin-left: 2%;
     width: 50%;
 }
 
-.subtitle{
+.subtitle {
     font-size: 250%;
     margin-top: 2%;
     margin-left: 1%;
     font-family: "Manrope", sans-serif;
 }
 
-#sobre p{
+#sobre p {
     font-size: 150%;
     margin-top: 1%;
     margin-left: 1%;
     font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-weight: 300;
+    font-style: normal;
 }
 
-#modalidades .title{
+#modalidades .title {
     margin-top: 10%;
 }
 
 /*As vezes eu mesmo me perco no meu próprio css*/
 
-.banner2{
+.banner2 {
     background-image: url('img/paralimpiadas.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -288,139 +290,139 @@ header.rolagem a{
     font-weight: 1000;
 }
 
-.banner2 h1{
+.banner2 h1 {
     color: #fff;
     font-size: 4em;
     margin-top: 2%;
 }
 
-.banner2 h1 span{
+.banner2 h1 span {
     color: #d6c278;
 }
 
-#paralimpiadas p{
+#paralimpiadas p {
     font-size: 150%;
     margin-top: 1%;
     margin-left: 1%;
     font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-weight: 300;
+    font-style: normal;
 }
 
-#paralimpiadas p.title{
+#paralimpiadas p.title {
     font-size: 400%;
 }
 
 
 
-footer{
+footer {
     background-color: #000;
     color: #fff;
     font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 110%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 110%;
     line-height: 160%;
 }
 
-.row{
+.row {
     margin-left: 10%;
 }
 
-.col-md-5{
+.col-md-5 {
     margin-top: 10%;
 }
 
-footer span{
+footer span {
     color: #d6c278;
 }
 
-footer .btn{
+footer .btn {
     background-color: #d6c278;
     border-color: #d6c278;
     margin-top: 10%;
 }
 
-footer .btn:hover{
+footer .btn:hover {
     background-color: #d6c278;
     border-color: #d6c278;
 }
 
-.copyright{
+.copyright {
     margin-bottom: 5%;
 }
 
 @media screen and (min-width: 1600px) {
-    .logo{
+    .logo {
         margin-right: 25%;
         margin-top: -2% !important;
         width: 50%;
     }
 
-    nav{
+    nav {
         margin-top: -1.5%;
     }
 
-    .sports-list li:hover{
+    .sports-list li:hover {
         transform: scale(1.1);
     }
 }
 
-@media screen and (min-width: 1200px){
-    .logo img{
+@media screen and (min-width: 1200px) {
+    .logo img {
         width: 25% !important;
     }
 
-    .navmenu{
+    .navmenu {
         margin-right: 10%;
         margin-bottom: 5%;
     }
 
-    .sports-list li:hover{
+    .sports-list li:hover {
         transform: scale(1.1);
     }
 
-    .menu-toggle{
+    .menu-toggle {
         visibility: hidden;
     }
 
-    input{
+    input {
         visibility: hidden;
     }
 
 }
 
-@media screen and (min-width: 1600px){
-    .logo img{
+@media screen and (min-width: 1600px) {
+    .logo img {
         width: 50% !important;
     }
 
-    .sports-list li:hover{
+    .sports-list li:hover {
         font-size: 150%;
         transform: scale(1.5);
         margin-left: 10%;
     }
 
-    .hover-info{
+    .hover-info {
         margin-top: -3%;
     }
 
-    .menu-toggle{
+    .menu-toggle {
         visibility: hidden;
     }
 
-    input{
+    input {
         visibility: hidden;
     }
 }
 
 @media (max-width: 768px) {
-    header.rolagem{
-        background-color: #d6c278 ;
+    header.rolagem {
+        background-color: #d6c278;
         padding-bottom: 16%;
     }
-    
-    header.rolagem a{
+
+    header.rolagem a {
         color: #fff;
     }
 
@@ -436,7 +438,7 @@ footer .btn:hover{
         margin-top: -10%;
     }
 
-    .navmenu li{
+    .navmenu li {
         margin-top: 13%;
     }
 
@@ -450,41 +452,120 @@ footer .btn:hover{
     }
 
     /* Exibir a lista quando o checkbox está marcado */
-    .menu-toggle-checkbox:checked ~ .navmenu {
+    .menu-toggle-checkbox:checked~.navmenu {
         display: flex;
     }
 
-    input{
+    input {
         opacity: 0;
     }
 
-    img .dentro-menu{
+    img .dentro-menu {
         margin-left: 10%;
     }
 
-    .banner h1{
+    .banner h1 {
         margin-left: 15%;
         font-size: 300%;
     }
 
-    .logo img{
+    .logo img {
         width: 40% !important;
         margin-left: 1%;
     }
 
-    .menu-icon{
+    .menu-icon {
         margin-left: 10%;
     }
 
 
-    .title{
+    .title {
         font-size: 250%;
     }
 
-    .sports-list li:hover{
+    .sports-list li:hover {
         transform: scale(0.8);
     }
-    
-    .modalidades{
+
+    .modalidades {
         margin-left: 1400%
     }
+
+    .dentro-menu {
+        margin-left: -20%;
+    }
+
+    .image {
+        width: 90vw;
+        margin-left: 4%;
+        margin-top: 3%;
+        float: none;
+    }
+
+    .imageright {
+        width: 90vw;
+        margin-left: 4%;
+        margin-top: 6%;
+        float: none;
+    }
+
+    .title {
+        font-size: 150%;
+        font-weight: 700;
+        margin: 6%;
+    }
+
+    .subtitle {
+        margin: 5%;
+        margin-top: 15% !important;
+        font-size: 150%;
+        font-weight: 800;
+    }
+
+    #sobre p {
+        margin: 5%;
+        margin-right: 8% !important;
+        text-align: justify;
+    }
+
+    .sports-list li {
+        font-size: 130%;
+    }
+
+    .sports-list li:hover {
+        transform: scale(0.8);
+    }
+
+    #medalhas .title {
+        margin-left: 4%;
+        margin-bottom: 10%;
+    }
+
+    .tabela{
+        width: 90vw;
+        margin-left: 4%;
+        margin-bottom: 20%;
+    }
+
+    .tabela table{
+        width: 90%;
+    }
+
+    .banner2 h1{
+        font-size: 3em;
+        margin-left: 5.5%;
+    }
+
+    #paralimpiadas p {
+        margin: 5%;
+        margin-right: 8% !important;
+        text-align: justify;
+    }
+    
+    #paralimpiadas .title{
+        font-size: 160%!important;
+        font-weight: 800;
+        text-align: left;
+        margin-top: -6%;
+    }
+}
