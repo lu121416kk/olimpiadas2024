@@ -211,11 +211,11 @@ header.rolagem a {
     font-size: 150%;
 }
 
-.tabela table tr.item td {
+.tabela table tr td {
     border-bottom: 1px solid #1c1c1c;
 }
 
-.tabela table tr.item {
+.tabela table tr {
     height: 60px;
 }
 
@@ -223,10 +223,11 @@ header.rolagem a {
     background-color: #e0e0e0;
 }
 
-.tabela table tr.item:hover {
+.tabela table tr:hover {
     background-color: #e0e0e0;
     transition: 1s;
 }
+
 
 #medalhas {
     margin-top: 8%;
@@ -558,6 +559,37 @@ footer .btn:hover {
     .tabela table{
         width: 90%;
         margin-bottom: 6%;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .colocacao{
+        margin-top: 3%;
+        margin-left: -8%;
+        position: absolute;
+        display: none;
+    }
+
+    .medalhas1{
+        margin-left: 0.1%;
+        position: absolute;
+    }
+
+    .medalhas2{
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .medalhas3{
+        margin-left: 14%;
+        position: absolute;
+    }
+
+    .medalhas4{
+        margin-left: 21%;
+        position: absolute;
     }
 
     .banner2 h1{
