@@ -203,61 +203,20 @@
     <p class="title">Veja o <span>Quadro de Medalhas</span> <br> nos Jogos Olímpicos de <span>Paris 2024</span</p><br>
         <div class="tabela">
           <table>
-            <tr>
-              <th>País</th>
-              <th><img src="img/ouro.svg" alt=""></th>
-              <th><img src="img/prata.svg" alt=""></th>
-              <th><img src="img/bronze.svg" alt=""></th>
-              <th><img src="img/total.svg" alt=""></th>
-            </tr>
-
-            <tr class="item">
-              <td>1<img src="img/eua.png" width="6%" class="bandeiras">Estados Unidos</td>
-              <td>40</td>
-              <td>44</td>
-              <td>42</td>
-              <td>126</td>
-            </tr>
-
-            <tr class="item">
-              <td>2<img src="img/china.png" width="6%" class="bandeiras">China</td>
-              <td>40</td>
-              <td>27</td>
-              <td>24</td>
-              <td>91</td>
-            </tr>
-
-            <tr class="item">
-              <td>3<img src="img/japao.png" width="6%" class="bandeiras">Japão</td>
-              <td>20</td>
-              <td>12</td>
-              <td>13</td>
-              <td>45</td>
-            </tr>
-
-            <tr class="item">
-              <td>4<img src="img/australia.png" width="6%" class="bandeiras">Austrália</td>
-              <td>18</td>
-              <td>19</td>
-              <td>16</td>
-              <td>53</td>
-            </tr>
-
-            <tr class="item">
-              <td>5<img src="img/franca.png" width="6%" class="bandeiras">França</td>
-              <td>16</td>
-              <td>26</td>
-              <td>22</td>
-              <td>64</td>
-            </tr>
-
-            <tr class="item brasil">
-              <td>20<img src="img/brasil.png" width="6%" class="bandeiras">Brasil</td>
-              <td>3</td>
-              <td>7</td>
-              <td>10</td>
-              <td>20</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>‎</th>
+                <th  class="colocacao">Colocação</th>
+                <th class="pais">País</th>
+                <th class="medalhas1"><img src="img/ouro.svg" alt=""></th>
+                <th class="medalhas2"><img src="img/prata.svg" alt=""></th>
+                <th class="medalhas3"><img src="img/bronze.svg" alt=""></th>
+                <th class="medalhas4"><img src="img/total.svg" alt=""></th>
+              </tr>
+            </thead>
+            <tbody id="medals-body">
+              <!-- Os dados serão preenchidos aqui -->
+          </tbody>
           </table>
         </div>
   </section>
@@ -394,6 +353,7 @@
   </div>
 
   <script src="menu.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
