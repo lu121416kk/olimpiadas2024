@@ -422,7 +422,7 @@ footer .btn:hover {
 
 @media (max-width: 768px) {
     header.rolagem {
-        background-color: #d6c278;
+        background-color: #000;
         padding-bottom: 1%;
     }
 
