@@ -225,7 +225,7 @@ header.rolagem a {
 
 .tabela table tr:hover {
     background-color: #e0e0e0;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 
